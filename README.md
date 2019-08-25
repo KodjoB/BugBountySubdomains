@@ -4,7 +4,7 @@ Simple scripts to enumerate bug bounty programs and subdomains. Useful for infor
 
 Use the information to gather more subdomains, check for subdomain takeovers, delegation, etc. 
 
-# Example Usages:
+# Some Usage Ideas:
 
 python geth1programs.py > h1programs.txt
 
@@ -15,13 +15,8 @@ python geth1urls.py spotify
 
 Get URLs from all programs
 
-for p in $(cat list.txt); do python geth1urls.py $p; done 
+./program.sh
 
-Some Usage Ideas:
-
-Create a folder structure with domains
-
-`for p in $(cat h1programs.txt); do mkdir ./programs/$p; python geth1urls.py $p > ./programs/$p/domains.txt; done`
 
 # TODO
 
