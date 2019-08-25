@@ -7,8 +7,9 @@ Use the information to gather more subdomains, check for subdomain takeovers, de
 # Some Usage Ideas:
 
 python geth1programs.py > h1programs.txt
+python getBCprograms.py > BCprograms.txt
 
-python geth1urls.py <programname>
+python geth1urls.py <programname>(h1programs only for now)
 
 Get subdomains from one program.
 python geth1urls.py spotify
@@ -20,7 +21,7 @@ Get URLs from all programs
 
 # TODO
 
-Scrape BugCrowd program and subdomains
+Scrape BugCrowd subdomains
 
 # DISCLAIMER
 
