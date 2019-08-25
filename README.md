@@ -7,6 +7,7 @@ Use the information to gather more subdomains, check for subdomain takeovers, de
 # Some Usage Ideas:
 
 python geth1programs.py > h1programs.txt
+
 python getBCprograms.py > BCprograms.txt
 
 python geth1urls.py <programname>(h1programs only for now)
